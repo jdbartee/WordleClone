@@ -12,6 +12,7 @@ struct WordleCloneApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(WordleStore())
         }
     }
 }
